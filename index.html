@@ -411,12 +411,13 @@
       <section id="contact" class="section">
         <h3>Свяжитесь с нами</h3>
         <div class="contact-form">
-            <form action="send_email.php" method="POST">
-                <input type="hidden" name="_next" value="de-opportunities.kz">
-                <input type="text" name="firstname" placeholder="Ваше имя" required>
+            <form action="https://formsubmit.co/zhumamuratovsamat@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/chat.html">
+                <input type="text" name="name" placeholder="Ваше имя" required>
                 <input type="email" name="email" placeholder="Ваш email" required>
                 <input type="hidden" name="_captcha" value="false">
-                <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                <input type="hidden" name="_subject" value="New submission from agency!">
+                <textarea name="text" rows="5" placeholder="Ваше сообщение" required></textarea>
                 <button type="submit">Отправить</button>
             </form>
           <a href="https://wa.me/77051801913" class="whatsapp-button"
