@@ -59,7 +59,7 @@ const EmblaCarousel = (props) => {
             <Image className='rounded-[20px]' src={Carousel3} alt='carousel 1' />
             <div className='item-text flex flex-col'>
               <p className='m-[10px]'>“Команда сопровождала меня на каждом этапе — от подачи заявки на визу до поиска работы. Это был потрясающий опыт работать и исследовать Германию..”</p>
-              <span className='font-bold text-end'>– Айдар, студент из Алматы</span>
+              <span className='font-bold text-end'>– Алихан, студент из Алматы</span>
             </div>
           </div>
         </div>
