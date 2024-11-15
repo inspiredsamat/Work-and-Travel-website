@@ -9,9 +9,9 @@ import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from 'embla-carousel-react'
 
 import Image from 'next/image'
-import Carousel1 from '../../public/car1.png'
-import Carousel2 from '../../public/car2.png'
-import Carousel3 from '../../public/car3.png'
+import Carousel1 from '../../public/Ulmeken.jpg'
+import Carousel2 from '../../public/Darkhan.jpg'
+import Carousel3 from '../../public/Alikhan.jpg'
 
 
 const EmblaCarousel = (props) => {
