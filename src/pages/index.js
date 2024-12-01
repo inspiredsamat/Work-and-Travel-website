@@ -43,7 +43,7 @@ export default function Main() {
   }
 
   const downloadPdf = () => {
-    const pdfUrl = "../public/car1.png";
+    const pdfUrl = "./public/Briefing.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "document.pdf"; // specify the filename
@@ -62,24 +62,7 @@ export default function Main() {
   <meta name="author" content="Deutschland Opportunities" />
   <meta name="keywords" content="работа в Германии, летняя работа для студентов, Германия, Казахстан, студенты, McDonald's, культурный обмен" />
   <meta name="google-site-verification" content="SbWepejrcmAcgdjiuP6f8JZRLRGzLwVzjOJ0OMtynEU" />
-  
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Deutschland Opportunities",
-        "url": "https://www.de-opportunities.kz",
-        "logo": "https://raw.githubusercontent.com/inspiredsamat/Work-and-Travel-website/main/src/public/logo.png",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+7-705-180-1913",
-          "contactType": "Customer Service"
-        }
-      })
-    }}
-  />
+  <link rel="icon" href="../public/favicon.ico"/>
 </Head>
       <header style={burger ? { boxShadow: "0 4px 30px 0 rgba(0, 0, 0, 0.3)" } : {}} className="fixed top-0 z-50 bg-white w-[100%]">
         <div className="container   flex justify-between items-center  h-[100px]">

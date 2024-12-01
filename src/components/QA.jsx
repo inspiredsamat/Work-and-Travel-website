@@ -43,41 +43,35 @@ export default function () {
             <div className="flex flex-col gap-[40px] mt-[40px]">
                 <div className="qa-item w-[90%] sm:w-[80%] mx-auto p-[10px] sm:p-[20px] md:p-[40px] rounded-[14px]">
                     <button onClick={onClick1} className="flex justify-between w-full items-center">
-                        <p className="font-semibold text-[14px] md:text-[22px] text-start">Как я могу подать заявку на программу?</p>
+                        <p className="font-semibold text-[14px] md:text-[22px] text-start">Кто может подать заявку на летнюю работу через Deutschland Opportunities?</p>
                         <div className={`flex justify-center items-center w-[50px] h-[50px] rounded-full whitebg bg-${qa1 ? 'red' : 'white'}`}>
                             <Image src={qa1 ? close : open} alt="toggle" />
                         </div>
                     </button>
                     <div className={`content ${qa1 ? 'open' : ''}`}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, rem veritatis aperiam odio quis incidunt explicabo perferendis aut mollitia quam tempore, esse velit consequatur, sequi dolore. Quis, temporibus! Culpa, qui?
-                        Minima, earum doloremque! Minima, architecto numquam. Modi, exercitationem, magnam ex sunt voluptatibus, odit nisi ipsum quasi dolorum minus sint deserunt consequuntur dolores aliquam. Ducimus architecto asperiores vero ad voluptatum non?
-                        Quaerat doloribus error culpa obcaecati ut? Placeat, rerum ipsum ex facere fugiat ipsam voluptates ipsa quos, voluptas quis sequi laborum eveniet expedita vero explicabo, sunt nostrum dignissimos! Ea, accusamus at?
+                    Студенты из Казахстана в возрасте от 18 лет с базовыми знаниями немецкого или английского языка. Опыт работы не требуется, главное – трудолюбие и мотивация.
                     </div>
                 </div>
                 <div className="qa-item w-[90%] sm:w-[80%] mx-auto p-[10px] sm:p-[20px] md:p-[40px] rounded-[14px]">
                     <button onClick={onClick2} className="flex justify-between w-full items-center">
-                        <p className="font-semibold text-[14px] md:text-[22px]  text-start">Как я могу подать заявку на программу?</p>
+                        <p className="font-semibold text-[14px] md:text-[22px]  text-start">Какие вакансии доступны в вашей программе?</p>
                         <div className={`flex justify-center items-center w-[50px] h-[50px] rounded-full whitebg bg-${qa2 ? 'red' : 'white'}`}>
                             <Image src={qa2 ? close : open} alt="toggle" />
                         </div>
                     </button>
                     <div className={`content ${qa2 ? 'open' : ''}`}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, rem veritatis aperiam odio quis incidunt explicabo perferendis aut mollitia quam tempore, esse velit consequatur, sequi dolore. Quis, temporibus! Culpa, qui?
-                        Minima, earum doloremque! Minima, architecto numquam. Modi, exercitationem, magnam ex sunt voluptatibus, odit nisi ipsum quasi dolorum minus sint deserunt consequuntur dolores aliquam. Ducimus architecto asperiores vero ad voluptatum non?
-                        Quaerat doloribus error culpa obcaecati ut? Placeat, rerum ipsum ex facere fugiat ipsam voluptates ipsa quos, voluptas quis sequi laborum eveniet expedita vero explicabo, sunt nostrum dignissimos! Ea, accusamus at?
+                    На данный момент мы предлагаем вакансии в McDonald’s в Германии, включая позиции на кухне, кассира и общего персонала. Это отличная возможность приобрести полезный опыт работы.
                     </div>
                 </div>
                 <div className="qa-item w-[90%] sm:w-[80%] mx-auto p-[10px] sm:p-[20px] md:p-[40px] rounded-[14px]">
                     <button onClick={onClick3} className="flex justify-between w-full items-center">
-                        <p className="font-semibold text-[14px] md:text-[22px] text-start">Как я могу подать заявку на программу?</p>
+                        <p className="font-semibold text-[14px] md:text-[22px] text-start">Как проходит процесс подачи заявки?</p>
                         <div className={`flex justify-center items-center w-[50px] h-[50px] rounded-full whitebg bg-${qa3 ? 'red' : 'white'}`}>
                             <Image src={qa3 ? close : open} alt="toggle" />
                         </div>
                     </button>
                     <div className={`content ${qa3 ? 'open' : ''}`}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, rem veritatis aperiam odio quis incidunt explicabo perferendis aut mollitia quam tempore, esse velit consequatur, sequi dolore. Quis, temporibus! Culpa, qui?
-                        Minima, earum doloremque! Minima, architecto numquam. Modi, exercitationem, magnam ex sunt voluptatibus, odit nisi ipsum quasi dolorum minus sint deserunt consequuntur dolores aliquam. Ducimus architecto asperiores vero ad voluptatum non?
-                        Quaerat doloribus error culpa obcaecati ut? Placeat, rerum ipsum ex facere fugiat ipsam voluptates ipsa quos, voluptas quis sequi laborum eveniet expedita vero explicabo, sunt nostrum dignissimos! Ea, accusamus at?
+                    Процесс включает подачу анкеты, собеседование и предоставление необходимых документов для получения визы и трудоустройства. Мы сопровождаем вас на всех этапах – от подготовки до начала работы в Германии.
                     </div>
                 </div>
             </div>
